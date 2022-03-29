@@ -27,3 +27,24 @@
 		width: 410px;
 	}
 }
+
+@media screen and (max-width: 1330px) {
+	.animation-container {
+		padding-top: 25%;
+	}
+}
+
+@media screen and (max-width: 885px) {
+	.animation-container {
+		padding-top: 32%;
+	}
+	.container {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.animation-container {
+		padding-top: 52%;
+	}
+}

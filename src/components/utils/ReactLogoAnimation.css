@@ -1,0 +1,22 @@
+.logo-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.rotate {
+	color: #4c768d;
+	height: 200px;
+	width: 200px;
+	font-size: 200px;
+	position: absolute;
+	animation: rotate 3s linear 0s infinite normal forwards running;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
