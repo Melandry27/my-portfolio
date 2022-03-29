@@ -1,0 +1,108 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: #d6ccc2;
+	height: 4rem;
+	border-bottom: 2px solid #7f5943;
+}
+
+.unlink {
+	margin: 10px 0 0 5px;
+}
+
+.left-section {
+	color: #d5bdaf;
+	display: flex;
+	justify-content: left;
+	font-size: 22px;
+	text-shadow: 4px 3px 0px #7a7a7a, 2px 2px 2px rgba(0, 0, 0, 0);
+	margin-left: 10%;
+}
+
+.unlink-icone {
+	color: #4c768d;
+	float: left;
+	padding-right: 10px;
+	margin: 5px 0 0 10px;
+	font-size: 54px;
+}
+
+.link {
+	display: flex;
+	margin-right: 100px;
+}
+
+.link-ul {
+	list-style: none;
+	display: flex;
+	justify-content: right;
+	font-size: 22px;
+	color: #d6b1b0;
+}
+
+.link-ul li {
+	margin: 20px 25px 0px 0px;
+}
+
+.link-ul li a {
+	color: #a37256;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #7a7a7a, 2px 2px 2px rgba(0, 0, 0, 0);
+}
+
+.link-ul a:hover {
+	color: #e3d5ca;
+}
+
+.link-icone {
+	display: flex;
+	justify-content: center;
+	font-size: 42px;
+	color: #a37256;
+	margin-right: 10%;
+}
+
+.github-link {
+	margin: 10px 20px 0 0;
+	color: #a37256;
+}
+
+.github-link:hover {
+	color: #4c768d;
+}
+
+.linkedin-link {
+	margin: 10px 20px 0 0;
+	color: #a37256;
+}
+
+.linkedin-link:hover {
+	color: #4c768d;
+}
+
+@media screen and (max-width: 1220px) {
+	.nav {
+		height: 14rem;
+		flex-direction: column;
+	}
+	.left-section {
+		margin: 10px 0 5px 0;
+		margin-left: 0.1%;
+		justify-content: center;
+	}
+	.link {
+		margin: 10px 0 5px 0;
+		justify-content: center;
+	}
+	.link-icone {
+		margin: 10px 0 5px 0;
+		margin-right: 0.1%;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	.link {
+		margin-right: 0;
+	}
+}
