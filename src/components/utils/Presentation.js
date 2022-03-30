@@ -1,12 +1,15 @@
 import "./Presentation.css"
-import WriteAnimation from "./WriteAnimation"
+
 import ReactLogoAnimation from "./ReactLogoAnimation"
+import WriteAnimation from "./WriteAnimation"
+import Transition from "./Transition"
 
 function Presentation() {
 	return (
 		<div className="presentation">
 			<ReactLogoAnimation />
 			<WriteAnimation />
+			<Transition />
 		</div>
 	)
 }
