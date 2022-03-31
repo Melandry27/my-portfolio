@@ -1,0 +1,35 @@
+.techno-container {
+	background-color: #cfbeb4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 5px;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	border: solid 2px #7f5943;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.techno-container:hover {
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 50px 26px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 50px 26px rgba(0, 0, 0, 0.2);
+}
+
+.techno-container .logo {
+	font-size: 58px;
+}
+
+.techno-container .txt {
+	font-size: 24px;
+	color: #7f5943;
+}
+
+@media screen and (max-width: 1500px) {
+	.techno-container {
+		margin-top: 25px;
+		height: 150px;
+		width: 25%;
+		word-wrap: break-word;
+	}
+}

@@ -3,27 +3,6 @@
 	background-color: #d6ccc2;
 }
 
-.title-project-list {
-	width: 100%;
-	padding-top: 50px;
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-}
-
-.title-project-list h1 {
-	color: #d5bdaf;
-	text-shadow: 4px 3px 0px #7a7a7a, 2px 2px 2px rgba(0, 0, 0, 0);
-	padding-bottom: 25px;
-	font-size: 58px;
-}
-
-.title-project-list hr {
-	display: flex;
-	margin: 0 25% 0 25%;
-	border: solid 1px#7f5943;
-}
-
 .project-list {
 	padding-top: 75px;
 	background-color: #d6ccc2;

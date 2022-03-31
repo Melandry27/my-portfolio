@@ -1,0 +1,26 @@
+.aboutme-container {
+	width: 100%;
+	background-color: #d6ccc2;
+}
+
+.aboutme-container .title-container {
+	margin-bottom: 50px;
+}
+
+.aboutme-container .txt-container {
+	display: flex;
+	background-color: #cfbeb4;
+	margin: 0 auto;
+	width: 50%;
+	border-radius: 15px;
+	border: solid 2px #7f5943;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.aboutme-container .txt-container .txt {
+	padding: 25px 15px 25px 15px;
+	text-align: center;
+	color: #7f5943;
+	font-size: 22px;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
