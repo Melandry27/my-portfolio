@@ -5,6 +5,7 @@ import ProjectList from "./utils/ProjectList"
 import Transition from "./utils/Transition"
 import Technologie from "./utils/Technologie"
 import AboutMe from "./utils/AboutMe"
+import ContactContainer from "./utils/ContactContainer"
 
 function Main() {
 	return (
@@ -15,6 +16,8 @@ function Main() {
 			<Technologie />
 			<Transition />
 			<AboutMe />
+			<Transition />
+			<ContactContainer />
 		</div>
 	)
 }

@@ -1,6 +1,7 @@
 .aboutme-container {
 	width: 100%;
 	background-color: #d6ccc2;
+	height: 400px;
 }
 
 .aboutme-container .title-container {
@@ -23,4 +24,16 @@
 	color: #7f5943;
 	font-size: 22px;
 	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1500px) {
+	.aboutme-container {
+		height: 50%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.aboutme-container {
+		height: 70%;
+	}
 }

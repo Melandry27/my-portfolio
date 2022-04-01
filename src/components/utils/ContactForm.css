@@ -1,0 +1,118 @@
+.right-contact-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
+	padding-right: 200px;
+}
+
+.right-contact-container hr {
+	width: 50%;
+	border: solid 1px #7f5943;
+}
+
+.right-contact-container .contact-title {
+	font-size: 40px;
+	color: #d5bdaf;
+	text-shadow: 4px 3px 0px #7a7a7a, 2px 2px 2px rgba(0, 0, 0, 0);
+	padding-bottom: 10px;
+}
+
+.right-contact-container .form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 35px;
+}
+
+.right-contact-container .form-container span {
+	font-size: 22px;
+	color: #7f5943;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.right-contact-container .form-container input {
+	height: 30px;
+	width: 300px;
+	border: none;
+	font-size: 18px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.right-contact-container .form-container input:focus {
+	height: 30px;
+	width: 300px;
+	border-radius: 5px;
+	border: solid 1px #7f5943;
+	outline: none;
+}
+
+.right-contact-container .form-container textarea {
+	height: 60px;
+	width: 300px;
+	border: none;
+	font-size: 20px;
+	padding: 5px 5px 0 5px;
+}
+
+.right-contact-container .form-container textarea:focus {
+	height: 60px;
+	width: 300px;
+	border: solid 1px #7f5943;
+	border-radius: 5px;
+	border: solid 1px #7f5943;
+	outline: none;
+}
+
+.right-contact-container .form-container button {
+	padding: 15px 20px;
+	border-radius: 10px;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+	font-size: 22px;
+	color: #7f5943;
+	border: none;
+	background-color: burlywood;
+}
+
+.right-contact-container .form-container button:hover {
+	cursor: pointer;
+}
+
+.right-contact-container .show-result {
+	padding-top: 10px;
+	color: #81c779;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-size: 24px;
+}
+
+.right-contact-container .show-result button {
+	padding: 10px;
+	font-size: 22px;
+	color: #7f5943;
+	border: none;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	background-color: burlywood;
+	margin-top: 10px;
+}
+
+.right-contact-container .show-result button:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+	.right-contact-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background-color: #d6ccc2;
+		padding-right: 0px;
+	}
+	.right-contact-container hr {
+		width: 75%;
+	}
+}
