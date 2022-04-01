@@ -3,3 +3,10 @@
 	width: 100%;
 	background-color: #d6ccc2;
 }
+
+@media screen and (max-width: 800px) {
+	.main {
+		width: 100%;
+		background-color: #d6ccc2;
+	}
+}

@@ -46,6 +46,22 @@
 
 @media screen and (max-width: 650px) {
 	.animation-container {
-		padding-top: 52%;
+		padding-top: 60%;
+		padding-bottom: 10%;
+	}
+	.container .title-animation {
+		font-size: 36px;
+	}
+	.typed-out {
+		font-size: 32px;
+	}
+
+	@keyframes typing {
+		from {
+			width: 0;
+		}
+		to {
+			width: 300px;
+		}
 	}
 }

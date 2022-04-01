@@ -24,6 +24,7 @@
 	color: #7f5943;
 	font-size: 22px;
 	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+	word-wrap: break-word;
 }
 
 @media screen and (max-width: 1500px) {
@@ -35,5 +36,8 @@
 @media screen and (max-width: 700px) {
 	.aboutme-container {
 		height: 70%;
+	}
+	.aboutme-container .txt-container {
+		width: 80%;
 	}
 }

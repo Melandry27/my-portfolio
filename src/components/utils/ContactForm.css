@@ -109,10 +109,21 @@
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		background-color: #d6ccc2;
 		padding-right: 0px;
 	}
 	.right-contact-container hr {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.project-container {
+		margin-top: 25px;
+	}
+	.right-contact-container .form-container input,
+	.right-contact-container .form-container input:focus,
+	.right-contact-container .form-container textarea,
+	.right-contact-container .form-container textarea:focus {
 		width: 75%;
 	}
 }

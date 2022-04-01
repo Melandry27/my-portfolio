@@ -2,7 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	background-color: #cfbeb4;
-	width: 450px;
+	width: 100%;
+	margin: 0 50px;
 	border: solid 3px #7f5943;
 	word-wrap: break-word;
 	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -11,6 +12,10 @@
 .project-container:hover {
 	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 50px 26px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 50px 26px rgba(0, 0, 0, 0.2);
+}
+.project-container img {
+	height: 100%;
+	width: 100%;
 }
 
 .project-container hr {
@@ -36,7 +41,7 @@
 	text-align: center;
 }
 
-.stack {
+.stack-container .stack {
 	padding: 10px 5px 10px 5px;
 	border-radius: 50px;
 	background-color: burlywood;
@@ -47,5 +52,36 @@
 @media screen and (max-width: 1500px) {
 	.project-container {
 		margin-top: 25px;
+		width: 35%;
+		margin-bottom: 50px;
+	}
+	.project-container img {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.project-container {
+		margin-top: 25px;
+		width: 70%;
+		margin-bottom: 50px;
+	}
+	.stack-container {
+		flex-direction: column;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+		width: 50%;
+	}
+	.stack-container .stack {
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.project-container img {
+		height: 100%;
+		width: 100%;
 	}
 }

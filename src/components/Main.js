@@ -18,6 +18,7 @@ function Main() {
 			<AboutMe />
 			<Transition />
 			<ContactContainer />
+			<Transition />
 		</div>
 	)
 }
