@@ -1,14 +1,14 @@
-.aboutme-container {
+#aboutme-container {
 	width: 100%;
 	background-color: #d6ccc2;
 	height: 400px;
 }
 
-.aboutme-container .title-container {
+#aboutme-container .title-container {
 	margin-bottom: 50px;
 }
 
-.aboutme-container .txt-container {
+#aboutme-container .txt-container {
 	display: flex;
 	background-color: #cfbeb4;
 	margin: 0 auto;
@@ -18,7 +18,7 @@
 	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.aboutme-container .txt-container .txt {
+#aboutme-container .txt-container .txt {
 	padding: 25px 15px 25px 15px;
 	text-align: center;
 	color: #7f5943;
@@ -28,16 +28,16 @@
 }
 
 @media screen and (max-width: 1500px) {
-	.aboutme-container {
+	#aboutme-container {
 		height: 50%;
 	}
 }
 
 @media screen and (max-width: 700px) {
-	.aboutme-container {
+	#aboutme-container {
 		height: 70%;
 	}
-	.aboutme-container .txt-container {
+	#aboutme-container .txt-container {
 		width: 80%;
 	}
 }

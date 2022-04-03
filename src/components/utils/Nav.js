@@ -13,13 +13,13 @@ function Nav() {
 			<div className="link">
 				<ul className="link-ul">
 					<li>
-						<a href="default.asp">Projets</a>
+						<a href="#project-list-container">Projets</a>
 					</li>
 					<li>
-						<a href="contact.asp">Technologies</a>
+						<a href="#technologie-container">Technologies</a>
 					</li>
 					<li>
-						<a href="about.asp">À propos</a>
+						<a href="#aboutme-container">À propos</a>
 					</li>
 				</ul>
 			</div>
@@ -27,7 +27,7 @@ function Nav() {
 				<a className="github-link" href="https://github.com/Melandry27">
 					<FaGithub />
 				</a>
-				<a className="linkedin-link" href="https://www.linkedin.com/in/melandry-marchand/">
+				<a className="linkedin-link" href="https://www.linkedin.com/in/melandry-marchand27/">
 					<FaLinkedin />
 				</a>
 			</div>

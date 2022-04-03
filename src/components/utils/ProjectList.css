@@ -1,4 +1,4 @@
-.project-list-container {
+#project-list-container {
 	height: 100%;
 	background-color: #d6ccc2;
 }
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1500px) {
-	.project-list-container {
+	#project-list-container {
 		height: auto;
 		background-color: #d6ccc2;
 	}

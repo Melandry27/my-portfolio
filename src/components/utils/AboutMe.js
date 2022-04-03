@@ -5,9 +5,9 @@ import Title from "./Title"
 
 function AboutMe() {
 	return (
-		<div className="aboutme-container">
+		<div id="aboutme-container">
 			<div className="title-container">
-				<Title padding={"36%"} txt={"About me"} />
+				<Title padding={"36%"} txt={"À propos"} />
 			</div>
 			<div className="txt-container">
 				<p className="txt">

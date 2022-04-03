@@ -10,7 +10,7 @@ import Title from "./Title"
 
 function Technologie() {
 	return (
-		<div className="technologie-container">
+		<div id="technologie-container">
 			<Title padding={"36%"} txt={"Technologies"} />
 			<div className="technologie-list-container">
 				<Techno color={"#eb4034"} img={<FaHtml5 />} txt={"HTML"} />
