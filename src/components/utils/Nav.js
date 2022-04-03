@@ -1,5 +1,6 @@
 import "./Nav.css"
 import { FaReact, FaGithub, FaLinkedin } from "react-icons/fa"
+import { AiOutlineFilePdf } from "react-icons/ai"
 
 function Nav() {
 	return (
@@ -24,6 +25,13 @@ function Nav() {
 				</ul>
 			</div>
 			<div className="link-icone">
+				<a
+					className="github-link"
+					href="https://cdn-143.anonfiles.com/j7U1taTexf/1110f8ec-1649013871/Melandry_MARCHAND_Resume_03-04-2022-21-00-15.pdf"
+				>
+					<AiOutlineFilePdf />
+				</a>
+
 				<a className="github-link" href="https://github.com/Melandry27">
 					<FaGithub />
 				</a>
