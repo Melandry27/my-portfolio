@@ -27,7 +27,7 @@ function Nav() {
 			<div className="link-icone">
 				<a
 					className="github-link"
-					href="https://cdn-124.anonfiles.com/fbY97bTdxc/77a24974-1649089484/Melandry_MARCHAND_CV.pdf"
+					href="https://cdn-122.anonfiles.com/54e688T7xd/35d18441-1649090125/Melandry_MARCHAND_Alterance_CV.pdf"
 				>
 					<AiOutlineFilePdf />
 				</a>
