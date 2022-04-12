@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 1200px) {
 	.contact-container {
-		height: 1200px;
+		height: auto;
 		flex-direction: column;
 		padding-top: 100px;
 	}
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 500px) {
 	.contact-container {
-		height: 1400px;
+		height: auto;
 		flex-direction: column;
 		padding-top: 100px;
 	}
