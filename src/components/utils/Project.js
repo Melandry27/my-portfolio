@@ -13,6 +13,11 @@ function Project({ project }) {
 					<p className="stack">{stack}</p>
 				))}
 			</div>
+			<div className="codesource-container">
+				<a className="codesource-link" href={project.link}>
+					{"Code Source"}
+				</a>
+			</div>
 		</div>
 	)
 }
