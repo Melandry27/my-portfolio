@@ -54,6 +54,31 @@
 	color: #af8166;
 }
 
+.codesource-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+.codesource-link {
+	margin: 15px 0;
+	font-size: 18px;
+	text-decoration: none;
+	color: #af8166;
+	padding: 10px 5px 10px 5px;
+	border-radius: 50px;
+	background-color: burlywood;
+}
+
+.codesource-link:visited {
+	color: #af8166;
+}
+
+.codesource-link:hover {
+	color: #7f5943;
+}
+
 @media screen and (max-width: 1500px) {
 	.project-container {
 		margin-top: 25px;

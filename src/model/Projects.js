@@ -9,6 +9,7 @@ const Projects = [
 		title: "Créateur de CV",
 		description: "Site qui permet de créer son propre cv et de le télécharger au format PDF.",
 		stacks: ["ReactJS"],
+		link: "https://github.com/Melandry27/resume-builder",
 	},
 	{
 		id: 2,
@@ -17,6 +18,7 @@ const Projects = [
 		description:
 			"Site qui permet de chercher une ville pour afficher la météo de la ville recherchée.",
 		stacks: ["JavaScript", "Open Weather API", "HTML/CSS"],
+		link: "https://github.com/Melandry27/Weather-App",
 	},
 	{
 		id: 3,
@@ -25,6 +27,7 @@ const Projects = [
 		description:
 			"Site qui permet de jouer au jeu Etch A Sketch, de choisir la couleur voulue et de choisir la taille des cases.",
 		stacks: ["Javascript", "CSS Grid"],
+		link: "https://github.com/Melandry27/Etch-A-Sketch",
 	},
 ]
 
