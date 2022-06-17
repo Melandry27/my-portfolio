@@ -1,5 +1,5 @@
 #project-list-container {
-	height: 100%;
+	height: auto;
 	background-color: #d6ccc2;
 }
 
@@ -7,6 +7,7 @@
 	padding-top: 75px;
 	background-color: #d6ccc2;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 

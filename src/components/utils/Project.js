@@ -17,6 +17,11 @@ function Project({ project }) {
 				<a className="codesource-link" href={project.link}>
 					{"Code Source"}
 				</a>
+				{project.link2 && (
+					<a className="codesource-link" href={project.link2}>
+						{"Consulter !"}
+					</a>
+				)}
 			</div>
 		</div>
 	)
