@@ -21,6 +21,7 @@ const Projects = [
 		description: "Site qui permet de créer son propre cv et de le télécharger au format PDF.",
 		stacks: ["ReactJS"],
 		link: "https://github.com/Melandry27/resume-builder",
+		link2: "https://melandry-resume-builder.netlify.app/",
 	},
 	{
 		id: 3,
