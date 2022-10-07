@@ -22,10 +22,7 @@
 .project-container img {
 	height: 100%;
 	width: 100%;
-}
-
-.project-container hr {
-	border: solid 2px #7f5943;
+	border-bottom: solid 2px #7f5943;
 }
 .title {
 	padding-top: 10px;
