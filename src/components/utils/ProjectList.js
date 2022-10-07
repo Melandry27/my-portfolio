@@ -10,7 +10,7 @@ function ProjectList() {
 	const projectList = Projects.map((project) => <Project key={project.id} project={project} />)
 	return (
 		<div id="project-list-container">
-			<Title padding={"25%"} txt={"Mes Différents Projets"} />
+			<Title padding={"35%"} txt={"Mes Projets"} />
 			<div className="project-list">{projectList}</div>
 		</div>
 	)
