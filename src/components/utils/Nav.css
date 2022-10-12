@@ -23,6 +23,7 @@
 	display: flex;
 	flex-direction: row;
 	text-decoration: none;
+	color: #d5bdaf;
 }
 .left-section-link:active,
 .left-section-link:visited {
