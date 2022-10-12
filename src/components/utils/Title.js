@@ -11,7 +11,8 @@ function Title({ txt, padding }) {
 					marginTop: "20px",
 					marginRight: padding,
 					marginLeft: padding,
-					border: "solid 1px#7f5943",
+					border: "solid 1px #7f5943",
+					backgroundColor: "#7f5943",
 				}}
 			/>
 		</div>

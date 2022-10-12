@@ -6,10 +6,12 @@ function Nav() {
 	return (
 		<div className="nav">
 			<div className="left-section">
-				<h1 className="unlink-icone">
-					<FaReact />
-				</h1>
-				<h1 className="unlink">Portfolio</h1>
+				<a href="#" className="left-section-link">
+					<h1 className="unlink-icone">
+						<FaReact />
+					</h1>
+					<h1 className="unlink">Portfolio</h1>
+				</a>
 			</div>
 			<div className="link">
 				<ul className="link-ul">

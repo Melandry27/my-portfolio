@@ -1,6 +1,5 @@
-@media screen and (max-width: 800px) {
-	.header {
-		width: 100%;
-		background-color: #d6ccc2;
-	}
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
 }

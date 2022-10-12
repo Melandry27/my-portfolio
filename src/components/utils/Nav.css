@@ -19,6 +19,20 @@
 	margin-left: 10%;
 }
 
+.left-section-link {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+}
+.left-section-link:active,
+.left-section-link:visited {
+	color: #d5bdaf;
+}
+
+.left-section-link:hover {
+	color: #b6917b;
+}
+
 .unlink-icone {
 	color: #4c768d;
 	float: left;
